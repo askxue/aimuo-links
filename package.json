@@ -1,0 +1,25 @@
+{
+  "name": "aimuo-links",
+  "version": "1.0.0",
+  "description": "Aimuo toolbox",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate-md.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askxue/aimuo-links.git"
+  },
+  "keywords": [
+    "aimuo",
+    "online",
+    "tool",
+    "free"
+  ],
+  "author": "aimuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askxue/aimuo-links/issues"
+  },
+  "homepage": "https://github.com/askxue/aimuo-links#readme"
+}

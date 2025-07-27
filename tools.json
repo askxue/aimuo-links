@@ -1,0 +1,36 @@
+[
+  {
+    "key": "image-compress",
+    "name": {
+      "en": "Compress images",
+      "zh-CN": "图片压缩",
+      "zh-TW": "圖片壓縮",
+      "es": "Comprimir imágenes",
+      "fr": "Compresser des images",
+      "de": "Bilder komprimieren",
+      "ja": "画像を圧縮",
+      "ko": "이미지 압축",
+      "pt-BR": "Comprimir imagem",
+      "ru": "Сжать изображения",
+      "it": "Comprimi immagini",
+      "nl": "Afbeeldingen comprimeren"
+    }
+  },
+  {
+    "key": "image-convert",
+    "name": {
+      "en": "Convert images",
+      "zh-CN": "图片转换",
+      "zh-TW": "圖片轉換",
+      "es": "Convertir imágenes",
+      "fr": "Convertir des images",
+      "de": "Bilder konvertieren",
+      "ja": "画像を変換",
+      "ko": "이미지 변환",
+      "pt-BR": "Converter imagem",
+      "ru": "Преобразовать изображения",
+      "it": "Converti immagini",
+      "nl": "Afbeeldingen converteren"
+    }
+  }
+]
