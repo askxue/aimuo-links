@@ -32,5 +32,141 @@
       "it": "Converti immagini",
       "nl": "Afbeeldingen converteren"
     }
+  },
+  {
+    "key": "image-crop",
+    "name": {
+      "en": "Crop images",
+      "zh-CN": "图片裁剪",
+      "zh-TW": "圖片裁剪",
+      "es": "Recortar imágenes",
+      "fr": "Rogner des images",
+      "de": "Bilder zuschneiden",
+      "ja": "画像を切り抜く",
+      "ko": "이미지 자르기",
+      "pt-BR": "Cortar imagem",
+      "ru": "Обрезать изображения",
+      "it": "Ritaglia immagini",
+      "nl": "Afbeeldingen bijsnijden"
+    }
+  },
+  {
+    "key": "image-resize",
+    "name": {
+      "en": "Resize images",
+      "zh-CN": "图片尺寸调整",
+      "zh-TW": "圖片尺寸調整",
+      "es": "Cambiar tamaño de imágenes",
+      "fr": "Redimensionner des images",
+      "de": "Bilder skalieren",
+      "ja": "画像サイズ変更",
+      "ko": "이미지 크기 조정",
+      "pt-BR": "Redimensionar imagem",
+      "ru": "Изменить размер изображения",
+      "it": "Ridimensiona immagini",
+      "nl": "Afbeeldingen schalen"
+    }
+  },
+  {
+    "key": "image-watermark",
+    "name": {
+      "en": "Add watermark",
+      "zh-CN": "图片加水印",
+      "zh-TW": "圖片加浮水印",
+      "es": "Agregar marca de agua",
+      "fr": "Ajouter un filigrane",
+      "de": "Wasserzeichen hinzufügen",
+      "ja": "透かしを追加",
+      "ko": "워터마크 추가",
+      "pt-BR": "Adicionar marca d’água",
+      "ru": "Добавить водяной знак",
+      "it": "Aggiungi filigrana",
+      "nl": "Watermerk toevoegen"
+    }
+  },
+  {
+    "key": "text-format",
+    "name": {
+      "en": "Format text",
+      "zh-CN": "文本格式化",
+      "zh-TW": "文字格式化",
+      "es": "Formatear texto",
+      "fr": "Formater du texte",
+      "de": "Text formatieren",
+      "ja": "テキストを整形",
+      "ko": "텍스트 서식 지정",
+      "pt-BR": "Formatar texto",
+      "ru": "Форматировать текст",
+      "it": "Formatta testo",
+      "nl": "Tekst formatteren"
+    }
+  },
+  {
+    "key": "calc-bmi",
+    "name": {
+      "en": "Calculate BMI",
+      "zh-CN": "BMI计算",
+      "zh-TW": "BMI計算",
+      "es": "Calcular IMC",
+      "fr": "Calculer l’IMC",
+      "de": "BMI berechnen",
+      "ja": "BMIを計算",
+      "ko": "BMI 계산",
+      "pt-BR": "Calcular IMC",
+      "ru": "Рассчитать ИМТ",
+      "it": "Calcola BMI",
+      "nl": "BMI berekenen"
+    }
+  },
+  {
+    "key": "base-convert",
+    "name": {
+      "en": "Base converter",
+      "zh-CN": "进制转换",
+      "zh-TW": "進位制轉換",
+      "es": "Convertidor de bases",
+      "fr": "Convertisseur de base",
+      "de": "Zahlensystem umrechnen",
+      "ja": "進数変換",
+      "ko": "진수 변환",
+      "pt-BR": "Conversor de base",
+      "ru": "Преобразователь систем счисления",
+      "it": "Convertitore di base",
+      "nl": "Grondtal converteren"
+    }
+  },
+  {
+    "key": "world-clock",
+    "name": {
+      "en": "World clock",
+      "zh-CN": "世界时钟",
+      "zh-TW": "世界時鐘",
+      "es": "Reloj mundial",
+      "fr": "Horloge mondiale",
+      "de": "Weltzeituhr",
+      "ja": "世界時計",
+      "ko": "세계 시계",
+      "pt-BR": "Relógio mundial",
+      "ru": "Мировые часы",
+      "it": "Orologio mondiale",
+      "nl": "Wereldklok"
+    }
+  },
+  {
+    "key": "qr-code",
+    "name": {
+      "en": "QR code generator",
+      "zh-CN": "二维码生成",
+      "zh-TW": "二維碼產生",
+      "es": "Generador de código QR",
+      "fr": "Générateur de code QR",
+      "de": "QR-Code-Generator",
+      "ja": "QRコード生成",
+      "ko": "QR 코드 생성기",
+      "pt-BR": "Gerador de QR code",
+      "ru": "Генератор QR-кодов",
+      "it": "Generatore di QR code",
+      "nl": "QR-code generator"
+    }
   }
 ]
