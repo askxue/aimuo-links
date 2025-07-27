@@ -4,7 +4,7 @@
   "description": "Aimuo toolbox",
   "main": "index.js",
   "scripts": {
-    "generate": "node generate-md.js"
+    "generate": "node generate.js"
   },
   "repository": {
     "type": "git",

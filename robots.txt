@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://askxue.github.io/aimuo-links/sitemap.xml

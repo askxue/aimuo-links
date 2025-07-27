@@ -63,6 +63,7 @@ const renderHtml = (tools) => {
   <meta charset=\"UTF-8\" />
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
   <meta name=\"description\" content=\"Official multilingual tool index from Aimuo Toolbox. Access online image, text, and calculation tools in 12 languages.\" />
+  <link rel=\"sitemap\" type=\"application/xml\" title=\"Sitemap\" href=\"sitemap.xml\" />
   <title>Aimuo Toolbox – Tool Index</title>
   <style>
     body { font-family: system-ui, sans-serif; background: #0d1117; color: #c9d1d9; margin: 0; padding: 2rem; line-height: 1.6; }
@@ -83,7 +84,28 @@ const renderHtml = (tools) => {
 </html>`;
 };
 
+// Sitemap
+const renderSitemap = (tools) => {
+  const urls = tools.flatMap(tool =>
+    LANGS.map(({ code }) => `  <url><loc>${ DOMAIN }/${ code }/${ tool.key }</loc></url>`)
+  ).join('\n');
+
+  return `<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">
+${ urls }
+</urlset>`;
+};
+
+// Robots.txt
+const renderRobots = () => {
+  return `User-agent: *
+Allow: /
+Sitemap: https://askxue.github.io/aimuo-links/sitemap.xml`;
+};
+
 // Write files
 fs.writeFileSync('output.md', renderMarkdown(tools));
 fs.writeFileSync('index.html', renderHtml(tools));
-console.log('✅ output.md and index.html generated successfully');
+fs.writeFileSync('sitemap.xml', renderSitemap(tools));
+fs.writeFileSync('robots.txt', renderRobots());
+console.log('✅ output.md, index.html, sitemap.xml, and robots.txt generated successfully');
